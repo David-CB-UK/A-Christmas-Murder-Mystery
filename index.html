@@ -1,468 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<title>Christmas Murder Mystery</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="assets/css/style.css"
-		/>
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-lg fixed-top">
-			<div class="container-fluid">
-				<a
-					class="navbar-brand"
-					href="index.html"
-					>CHRISTMAS MURDER MYSTERY</a
-				>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div
-					class="collapse navbar-collapse"
-					id="navbarNavDropdown"
-				>
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
-							<a
-								class="nav-link active"
-								aria-current="page"
-								href="index.html"
-								>HOME</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CHARACTERS
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="santa.html"
-										>Santa</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="barbara.html"
-										>Barbara</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="frosty.html"
-										>Frosty</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="rudolph.html"
-										>Rudolph</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="policeman.html"
-										>Policeman</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="gumdrop.html"
-										>Gumdrop</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="head_elf.html"
-										>Head Elf</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="mr_fircone.html"
-										>Mr Fircone</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="mrs_claus.html"
-										>Mrs Claus</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="patch.html"
-										>Patch</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="scrooge.html"
-										>Scrooge</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="stable_boy.html"
-										>Stable Boy</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="tiny_tim.html"
-										>Tiny Tim</a
-									>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<header>
-			<h1>Christmas Murder Mystery</h1>
-		</header>
+    <title>Christmas Murder Mystery</title>
 
-		<main>
-			<section id="introduction">
-				<h2>Welcome to our <em>Christmas Murder Mystery</em></h2>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-				<p>
-					We need <strong>your help!</strong>
-					<br />
-					There has been a murder, someone here is guilty, and unless the truth is uncovered, Christmas is finished.
-					<br />
-					We need you to &apos;interview&apos; the suspects by clicking on their character links below. Things to think about and help you in your investigation:
-				</p>
-				<ul>
-					<li>What is the suspects name?</li>
-					<li>What was their relationship to the victim?</li>
-					<li>Where were they at the time of the murder?</li>
-					<li>Did they have any possessions on them at the time of the murder?</li>
-				</ul>
-			</section>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-			<section id="poem">
-				<strong> &ldquo;To set the scene and stir up some Christmas cheer, here&apos;s a little poem to begin your adventure.&rdquo; </strong>
+</head>
 
-				<p id="verse_1">
-					T&apos;was the run-up to Christmas, when Noel, half-asleep,
-					<br />
-					Went to feed reindeer kept warm in the keep.
-					<br />
-					But there in the rafters he froze where he stood&mdash;
-					<br />
-					For Santa lay lifeless, no longer so good.
-				</p>
+<body class="d-flex flex-column min-vh-100">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Christmas Murder Mystery</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Characters
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+         <li class="nav-item ">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-				<p id="verse_2">
-					A crumpled note reading &ldquo;SATAN&rdquo; lay near&mdash;
-					<br />
-					A typo? A warning? A message unclear.
-					<br />
-					Fairy lights tangled like someone had planned,
-					<br />
-					And too many motives for one pair of hands.
-				</p>
+<header class="container text-center mt-4 pt-4">
+    <h1>Christmas Murder Mystery</h1>
+</header>
 
-				<p id="verse_3">
-					So gather your wits, pour a drink if you must&mdash;
-					<br />
-					For someone here&apos;s guilty, and someone&apos;s unjust.
-					<br />
-					The truth must be found ere the night&apos;s icy end&hellip;
-					<br />
-					Or Christmas is cancelled&mdash;again, my dear friend.
-				</p>
+<body>
+  <section id="introduction">
+    <h2>
+      Welcome to our <em>Christmas Murder Mystery</em>
+    </h2>
 
-				<p>
-					<strong>
-						&hellip;So follow the clues, and don&apos;t fall for their lies!
-						<br />
-						Click on the suspects links to investigate further!
-					</strong>
-					<br />
-					Once you think you know who did it&hellip;
-				</p>
-			</section>
+    <p> 
+    We need <strong>your help!</strong>
+    <br> 
+    There has been a murder, someone here is guilty, and unless the truth is uncovered, Christmas is finished.
+    <br>
+      We need you to 'interview' the suspects by <em>SAY HOW HERE</em>
+      Things to think about and help you in your investigation:
+      <ul>
+        <li> What is the suspects name?</li>
+        <li> What was their relationship to the victim?</li>
+        <li> Where were they at the time of the murder?</li>
+        <li> Did they have any possessions on them at the time of the murder?
+</li>
+      </ul>
+    </p>
+    </Section>
+    
+  <section id="poem">   <!--Box this?-->
+    <strong>
+      “To set the scene and stir up some Christmas cheer, here’s a little poem to begin your adventure.”
+    </strong>
 
-			<div class="home-header">
-				<h1>CHRISTMAS MURDER MYSTERY</h1>
-				<p>On the eve of December 24th, Santa was brutally murdered. Investigate the suspects and solve the mystery.</p>
-			</div>
 
-			<div class="terminal-box">
-				<h2>▼ CHARACTERS</h2>
-				<p>Select a character to investigate their story and gather clues.</p>
-			</div>
+    <p id="verse_1">
+     T’was the run-up to Christmas, when Noel, half-asleep,
+    <br>
+      Went to feed reindeer kept warm in the keep.
+    <br>
+      But there in the rafters he froze where he stood—
+    <br>
+     For Santa lay lifeless, no longer so good.
+    </P>
 
-			<div
-				class="terminal-box"
-				style="text-align: center; margin: 2rem 0"
-				id="answer-section"
-			>
-				<div id="countdown-container">
-					<p>
-						<strong>The answer will be revealed on December 25th!</strong>
-					</p>
-					<div
-						id="countdown"
-						style="margin: 1.5rem 0; font-size: 1.2rem"
-					>
-						<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1rem; max-width: 600px; margin: 0 auto">
-							<div style="border: 1px solid var(--border); padding: 1rem">
-								<div
-									id="days"
-									style="font-size: 2rem; color: var(--accent); font-weight: 700"
-								>
-									0
-								</div>
-								<div style="color: var(--text-secondary); font-size: 0.9rem">Days</div>
-							</div>
-							<div style="border: 1px solid var(--border); padding: 1rem">
-								<div
-									id="hours"
-									style="font-size: 2rem; color: var(--accent-alt); font-weight: 700"
-								>
-									0
-								</div>
-								<div style="color: var(--text-secondary); font-size: 0.9rem">Hours</div>
-							</div>
-							<div style="border: 1px solid var(--border); padding: 1rem">
-								<div
-									id="minutes"
-									style="font-size: 2rem; color: var(--accent-yellow); font-weight: 700"
-								>
-									0
-								</div>
-								<div style="color: var(--text-secondary); font-size: 0.9rem">Minutes</div>
-							</div>
-							<div style="border: 1px solid var(--border); padding: 1rem">
-								<div
-									id="seconds"
-									style="font-size: 2rem; color: var(--accent); font-weight: 700"
-								>
-									0
-								</div>
-								<div style="color: var(--text-secondary); font-size: 0.9rem">Seconds</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div
-					id="reveal-button-container"
-					style="display: none"
-				>
-					<p>
-						<strong>Think you know who did it?</strong>
-						<br />
-						<a
-							href="answer.html"
-							class="action-button"
-							style="margin-top: 1rem"
-							>Reveal the Answer</a
-						>
-					</p>
-				</div>
-			</div>
+    <p id="verse_2">
+      A crumpled note reading “SATAN” lay near—
+     <br>
+       A typo? A warning? A message unclear.
+     <br>
+      Fairy lights tangled like someone had planned,
+      <br>
+       And too many motives for one pair of hands.
+    </p>
 
-			<div class="character-grid">
-				<a
-					href="santa.html"
-					class="character-item"
-					>Santa</a
-				>
-				<a
-					href="barbara.html"
-					class="character-item"
-					>Barbara</a
-				>
-				<a
-					href="frosty.html"
-					class="character-item"
-					>Frosty the Snowman</a
-				>
-				<a
-					href="rudolph.html"
-					class="character-item"
-					>Rudolph</a
-				>
-				<a
-					href="policeman.html"
-					class="character-item"
-					>The Policeman</a
-				>
-				<a
-					href="gumdrop.html"
-					class="character-item"
-					>Gumdrop the Elf</a
-				>
-				<a
-					href="head_elf.html"
-					class="character-item"
-					>Head Elf</a
-				>
-				<a
-					href="mr_fircone.html"
-					class="character-item"
-					>Mr Fircone</a
-				>
-				<a
-					href="mrs_claus.html"
-					class="character-item"
-					>Mrs Claus</a
-				>
-				<a
-					href="patch.html"
-					class="character-item"
-					>Patch the Elf</a
-				>
-				<a
-					href="scrooge.html"
-					class="character-item"
-					>Scrooge</a
-				>
-				<a
-					href="stable_boy.html"
-					class="character-item"
-					>Stable Boy (Noel)</a
-				>
-				<a
-					href="tiny_tim.html"
-					class="character-item"
-					>Tiny Tim</a
-				>
-			</div>
-		</main>
+    <p id="verse_3">
+      So gather your wits, pour a drink if you must—
+      <br>
+      For someone here’s guilty, and someone’s unjust.
+      <br>
+      The truth must be found ere the night’s icy end…
+      <br>
+      Or Christmas is cancelled—again, my dear friend.
+    </p>
 
-		<footer
-			id="contact"
-			class="fixed-bottom pt-3 pb-3"
-		>
-			<div class="footer-info">
-				<p class="mb-0">Christmas hackathon team 3 2025</p>
-				<div class="socials">
-					<a
-						href="https://www.instagram.com/"
-						target="_blank"
-						rel="noopener"
-						aria-label="Visit our Instagram page (opens in new tab)"
-						><i class="fa-brands fa-instagram"></i
-					></a>
-					<a
-						href="https://www.facebook.com/"
-						target="_blank"
-						rel="noopener"
-						aria-label="Visit our Facebook page (opens in new tab)"
-						><i class="fa-brands fa-square-facebook"></i
-					></a>
-					<a
-						href="https://x.com/"
-						target="_blank"
-						rel="noopener"
-						aria-label="Visit our X feed (opens in new tab)"
-						><i class="fa-brands fa-x-twitter"></i
-					></a>
-				</div>
-			</div>
-		</footer>
+    <p>
+      <strong>
+      ...So follow the clues, and don’t fall for their lies!
+      <br>
+      click on the suspects links to investigate further!
+      </strong>
+      <br>
+      Once you think you know how did it... <!-- Need to add to this--> 
+    </p>
+  </section>
+</body>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://kit.fontawesome.com/68be089ad3.js"
-			crossorigin="anonymous"
-		></script>
-		<script>
-			(function () {
-				// Set target date to December 25th of current year
-				const now = new Date();
-				const currentYear = now.getFullYear();
-				const targetDate = new Date(currentYear, 11, 25, 0, 0, 0); // Month is 0-indexed, so 11 = December
+<footer id="contact" class="fixed-bottom pt-3 pb-3">
+    <div class="footer-info d-flex flex-column flex-md-row justify-content-around align-items-center text-center gap-2">       
+      <p class="mb-0">Christmas hackathon team 3 2025</p>
+          <div class="socials">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Visit our X feed (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+    </div> 
+  </footer>
 
-				// If we've passed Dec 25 this year, set target to next year
-				if (now > targetDate) {
-					targetDate.setFullYear(currentYear + 1);
-				}
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-				const countdownContainer = document.getElementById("countdown-container");
-				const revealButtonContainer = document.getElementById("reveal-button-container");
-				const daysEl = document.getElementById("days");
-				const hoursEl = document.getElementById("hours");
-				const minutesEl = document.getElementById("minutes");
-				const secondsEl = document.getElementById("seconds");
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/68be089ad3.js" crossorigin="anonymous"></script>
 
-				function updateCountdown() {
-					const now = new Date();
-					const difference = targetDate - now;
-
-					if (difference <= 0) {
-						// Time's up! Show the reveal button
-						countdownContainer.style.display = "none";
-						revealButtonContainer.style.display = "block";
-						return;
-					}
-
-					const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-					const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-					const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-					const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-					daysEl.textContent = days.toString().padStart(2, "0");
-					hoursEl.textContent = hours.toString().padStart(2, "0");
-					minutesEl.textContent = minutes.toString().padStart(2, "0");
-					secondsEl.textContent = seconds.toString().padStart(2, "0");
-				}
-
-				// Initial check
-				updateCountdown();
-
-				// Update every second
-				setInterval(updateCountdown, 1000);
-			})();
-		</script>
-	</body>
+</body>
 </html>
