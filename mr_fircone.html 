@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frosty the Snowman</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Mr Fircone - The Sacked Lapland engineer</h1>  
+
+        <p>
+            Hello, I'm Mr Fircone.
+            <br> 
+            I was fired by Santa, I cannot believe he did this to me!
+            <br>
+            I liked Santa, but one little mistake caused me to hate him; 
+            <br>
+            I got mixed up and accidently put whisky in the sleigh to power it instead of rocket fuel. 
+            <br>
+            Ever since I got fired I've had a deep hate for Santa ...and were planning to kill him.
+        </p>
+
+        <h2>Their description</h2>
+        <p>
+        He has an engineers helmet on and a set of plans for a Christmas tree display.
+        </p>
+
+        <h3>Notes</h3>
+        <p>
+        His mix up was a big mistake that nearly killed Santa.
+        <br>
+        At the time of the crime he was found with some replacement Christmas light bulbs in his pocket and an electrical plug.  
+        <br>
+        He was putting a Christmas tree up in his living room.
+        </p>
+
+    </main>
+  </body>
+</html>
