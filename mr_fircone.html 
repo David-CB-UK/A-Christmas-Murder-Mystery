@@ -9,6 +9,8 @@
   </head>
   <body>
     <main>
+
+      <section id="character">  
         <h1>Mr Fircone - The Sacked Lapland engineer</h1>  
 
         <p>
@@ -22,12 +24,16 @@
             <br>
             Ever since I got fired I've had a deep hate for Santa ...and were planning to kill him.
         </p>
+      </section>
 
+      <section id="description">
         <h2>Their description</h2>
         <p>
         He has an engineers helmet on and a set of plans for a Christmas tree display.
         </p>
+      </section>
 
+      <section id="notes">
         <h3>Notes</h3>
         <p>
         His mix up was a big mistake that nearly killed Santa.
@@ -36,6 +42,7 @@
         <br>
         He was putting a Christmas tree up in his living room.
         </p>
+      </section>
 
     </main>
   </body>
